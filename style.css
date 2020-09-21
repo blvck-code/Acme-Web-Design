@@ -1,0 +1,169 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header .container {
+    display: flex;
+    align-items: baseline;
+}
+
+header #branding {
+    flex: 2 0 auto;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header ul{
+    flex: 1 0 auto;
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    padding: 0 20px;
+    margin: 0;
+}
+
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;;
+}
+
+#showcase {
+    min-height: 400px;
+    background: url('./showcase.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#newsletter{
+    padding: 15px;
+    color: #fff;
+    background-color: #35424a;
+}
+
+#newsletter .container {
+    display: flex;
+    align-items: baseline;
+}
+
+#newsletter h1 {
+    flex: 3 0 auto;
+    margin: 0;
+}
+
+#newsletter form {
+    flex: 1 0 auto;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    color: #222222;
+}
+
+.button_1{
+    height: 38px;
+    background-color: #e8491d;
+    color: #fff;
+    border: 0;
+    padding: 0 20px;
+}
+
+.dark {
+    padding: 10px;
+    background-color: #35424a;
+    color: #fff;
+}
+.page-title{
+    margin: 0;
+    padding-top: 30px;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .container{
+    display: flex;
+}
+
+#boxes .box{
+    flex: 1 0 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+#main .container{
+    margin-top: 10px;
+    display: flex;
+}
+
+article #main-col{
+    flex: 1 0 65%;
+}
+
+aside #sidebar{
+    flex: 0 0 30%;
+}
